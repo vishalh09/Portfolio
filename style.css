@@ -213,6 +213,33 @@ section {
   gap: 1rem;
 }
 
+/* cursor */
+.cursor{
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #000;
+  border-radius: 50%;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  transition: .1s;
+  z-index: 99;
+}
+.cursor2{
+  position: fixed;
+  width: 8px;
+  height: 8px;
+  background-color: #000;
+  border-radius: 50%;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  z-index: 99;
+}
+
 /* ICONS */
 
 .icon {
@@ -390,6 +417,10 @@ article .icon {
 .project-btn {
   color: black;
   border-color: rgb(163, 163, 163);
+}
+#projects .see{
+  position: absolute ;
+  left: 45%;
 }
 
 /* CONTACT */
